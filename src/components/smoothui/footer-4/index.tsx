@@ -1,6 +1,6 @@
 "use client";
 
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { Facebook, Github, Linkedin, Twitter, Instagram } from "lucide-react";
 import { motion, useReducedMotion } from "motion/react";
 import type { ReactNode } from "react";
 
@@ -27,27 +27,34 @@ const defaultLinks = [
 
 const defaultSocialLinks = [
   {
-    icon: <Twitter className="h-5 w-5" />,
-    href: "https://twitter.com",
-    label: "Twitter",
+    icon: <Facebook className="h-5 w-5" />,
+    href: "https://www.facebook.com/thomas.aquino73",
+    label: "Facebook",
   },
   {
     icon: <Github className="h-5 w-5" />,
-    href: "https://github.com",
+    href: "https://www.github.com/thomasaquino72",
     label: "GitHub",
   },
   {
     icon: <Linkedin className="h-5 w-5" />,
-    href: "https://linkedin.com",
+    href: "https://www.linkedin.com/in/thomasaquino/",
+    label: "LinkedIn",
+  },
+  {
+    icon: <Instagram className="h-5 w-5" />,
+    href: "https://www.instagram.com/tom7382_",
     label: "LinkedIn",
   },
 ];
 
 export const FooterMinimal = ({
-  logo = <span className="font-bold text-foreground text-xl">SmoothUI</span>,
+  logo = (
+    <span className="font-bold text-foreground text-xl">Diah Susanti</span>
+  ),
   links = defaultLinks,
   socialLinks = defaultSocialLinks,
-  copyright = "© 2024 SmoothUI",
+  copyright = "© 2026 v.1.0",
 }: FooterMinimalProps) => {
   const shouldReduceMotion = useReducedMotion();
 
@@ -84,7 +91,7 @@ export const FooterMinimal = ({
   };
 
   return (
-    <footer className="border-border border-t bg-background">
+    <footer className="border-t border-gray-200 dark:border-gray-800 bg-background">
       <div className="mx-auto max-w-7xl px-6 py-6">
         <motion.div
           {...getAnimationProps()}
@@ -98,7 +105,7 @@ export const FooterMinimal = ({
           </div>
 
           {/* Navigation Links */}
-          <nav className="flex items-center gap-6">
+          {/* <nav className="flex items-center gap-6">
             {links.map((link) => (
               <a
                 className="relative text-foreground/70 text-sm transition-colors after:absolute after:-bottom-0.5 after:left-0 after:h-px after:w-0 after:bg-foreground after:transition-all after:duration-200 hover:text-foreground hover:after:w-full"
@@ -108,7 +115,7 @@ export const FooterMinimal = ({
                 {link.label}
               </a>
             ))}
-          </nav>
+          </nav> */}
 
           {/* Social Links */}
           <div className="flex items-center gap-4">

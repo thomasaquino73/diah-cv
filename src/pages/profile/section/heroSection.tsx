@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 export default function HeroSection() {
   const { push } = useRouter();
   const handlerProject = () => {
-    push("/");
+    push("https://wa.me/6285591634682");
   };
   const handlerCV = () => {
     push("/cv");
@@ -26,19 +26,17 @@ export default function HeroSection() {
 
           <h1 className="mt-4 text-4xl md:text-6xl font-bold leading-tight">
             Hi, I&apos;m <br />
-            <span className="block mt-2">Dyah Susanti.</span>
+            <span className="block mt-2">Diah Susanti.</span>
           </h1>
 
           <p className="mt-6 max-w-xl text-muted-foreground leading-relaxed">
-            A Web Developer with extensive experience in web application
-            development, specializing in backend and full-stack solutions.
-            Proficient in building robust applications using Laravel,
-            CodeIgniter, and Next.js, with a strong focus on performance,
-            security, and system maintainability. I have a proven track record
-            of developing government applications, internal corporate systems,
-            and custom client solutions. A proactive problem-solver who thrives
-            both independently and in collaborative environments, I am committed
-            to staying at the forefront of modern web technologies.
+            Saya adalah seorang profesional dengan pengalaman kerja lebih dari
+            20 tahun di bidang administrasi, purchasing, dan keuangan. Terbiasa
+            bekerja dengan rapi, teliti, dan bertanggung jawab dalam mengelola
+            data, dokumen, serta laporan administrasi dan keuangan. Saya mampu
+            bekerja secara mandiri maupun dalam tim, memiliki komitmen kerja
+            yang baik, serta siap berkontribusi secara maksimal untuk mendukung
+            operasional perusahaan.
           </p>
 
           {/* INFO CARDS */}
@@ -53,13 +51,13 @@ export default function HeroSection() {
               onClick={() => handlerProject()}
               className="inline-flex items-center gap-2 rounded-lg bg-black px-6 py-3 text-white hover:bg-black/90 transition delay-150 duration-300 ease-in-out"
             >
-              View Projects <ArrowDown size={18} />
+              Hubungi saya <ArrowDown size={18} />
             </button>
             <button
               onClick={() => handlerCV()}
               className="inline-flex items-center gap-2 rounded-lg border px-6 py-3 hover:bg-muted transition delay-150 duration-300 ease-in-out"
             >
-              See CV <ArrowUpRight size={18} />
+              Lihat CV <ArrowUpRight size={18} />
             </button>
           </div>
         </div>
@@ -73,7 +71,7 @@ export default function HeroSection() {
             {/* avatar */}
             <div className="relative h-[320px] w-[320px] md:h-[420px] md:w-[420px] rounded-full border-4 border-white bg-white overflow-hidden drop-shadow-md">
               <Image
-                src="/image/logo_t.png"
+                src="/diah.jpeg"
                 alt="Profile"
                 fill
                 className="object-cover animate-pulse duration-300"
