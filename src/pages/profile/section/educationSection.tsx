@@ -32,14 +32,14 @@ export default function EducationSection() {
         </h1>
         <p className="text-sm text-muted-foreground-1 mt-2">
           Riwayat pendidikan formal yang membentuk dasar keahlian dan
-        pengembangan profesional saya.
+          pengembangan profesional saya.
         </p>
       </motion.div>
 
       {/* Timeline */}
       <div className="relative">
         {/* Neon Line */}
-        <div className="absolute top-8 left-0 right-0 h-[3px] bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 rounded-full blur-sm hidden md:block" />
+        <div className="absolute top-8 left-0 right-0 h-[3px]  rounded-full blur-sm hidden md:block" />
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {educations.map((edu, i) => (
@@ -58,13 +58,11 @@ export default function EducationSection() {
 
               {/* Glass Card */}
               <div className="backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl p-6 w-full text-left md:text-center shadow-lg hover:shadow-[0_0_30px_rgba(139,92,246,0.3)] transition">
-                <span className="text-xs uppercase tracking-widest text-cyan-400">
-                </span>
+                <span className="text-xs uppercase tracking-widest text-cyan-400"></span>
                 <h3 className="text-lg font-semibold text-foreground mt-2">
                   {edu.school}
                 </h3>
-                <p className="text-sm text-muted-foreground-1">
-                </p>
+                <p className="text-sm text-muted-foreground-1"></p>
                 <p className="text-xs text-muted-foreground-2 mt-2">
                   📍 {edu.location}
                 </p>
