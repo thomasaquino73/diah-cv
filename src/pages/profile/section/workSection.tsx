@@ -13,9 +13,9 @@ const workExperiences = [
   },
   {
     year: "2013 - 2020",
-    company: "PT. PRATAMA ADIJAYA STEEL",
+    company: "PT. PATAMA ADIJAYA STEEL",
     role: "Staff Finance",
-    location: "Tangerang Selatan, Indonesia",
+    location: "Kab. Tangerang, Indonesia",
   },
   {
     year: "2010 - 2013",
@@ -27,7 +27,7 @@ const workExperiences = [
     year: "1994 - 2000",
     company: "PT. PEARLAND",
     role: "Staff Administrasi Produk",
-    location: "Jakarta, Indonesia",
+    location: "Balaraja, Indonesia",
   },
   {
     year: "1993 - 1994",
@@ -44,9 +44,7 @@ export default function WorkSection() {
         Pengalaman Kerja
       </h1>
       <p className="text-sm text-neutral-500 mb-10">
-        An overview of my professional work experience, focusing on
-        responsibilities, technical expertise, and contributions to
-        organizational goals.
+  Riwayat pendidikan formal yang membentuk dasar keahlian dan pengembangan profesional saya.
       </p>
 
       <div className="w-full">
