@@ -39,7 +39,10 @@ export default function EducationSection() {
       {/* Timeline */}
       <div className="relative">
         {/* Neon Line */}
-        <div className="absolute top-8 left-0 right-0 h-[3px]  rounded-full blur-sm hidden md:block" />
+        <div
+          className="absolute top-8 left-0 right-0 h-[3px]  
+         rounded-full blur-sm hidden md:block"
+        />
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {educations.map((edu, i) => (
