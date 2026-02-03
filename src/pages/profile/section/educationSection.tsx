@@ -59,13 +59,11 @@ export default function EducationSection() {
               {/* Glass Card */}
               <div className="backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl p-6 w-full text-left md:text-center shadow-lg hover:shadow-[0_0_30px_rgba(139,92,246,0.3)] transition">
                 <span className="text-xs uppercase tracking-widest text-cyan-400">
-                  {edu.year}
                 </span>
                 <h3 className="text-lg font-semibold text-foreground mt-2">
                   {edu.school}
                 </h3>
                 <p className="text-sm text-muted-foreground-1">
-                  {edu.major}
                 </p>
                 <p className="text-xs text-muted-foreground-2 mt-2">
                   📍 {edu.location}
