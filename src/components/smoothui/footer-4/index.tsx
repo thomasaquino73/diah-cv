@@ -28,23 +28,13 @@ const defaultLinks = [
 const defaultSocialLinks = [
   {
     icon: <Facebook className="h-5 w-5" />,
-    href: "https://www.facebook.com/thomas.aquino73",
+    href: "https://www.facebook.com/diah.susanti.1848",
     label: "Facebook",
   },
   {
-    icon: <Github className="h-5 w-5" />,
-    href: "https://www.github.com/thomasaquino72",
-    label: "GitHub",
-  },
-  {
-    icon: <Linkedin className="h-5 w-5" />,
-    href: "https://www.linkedin.com/in/thomasaquino/",
-    label: "LinkedIn",
-  },
-  {
     icon: <Instagram className="h-5 w-5" />,
-    href: "https://www.instagram.com/tom7382_",
-    label: "LinkedIn",
+    href: "https://www.instagram.com/diah.susanti1974",
+    label: "Instagram",
   },
 ];
 
